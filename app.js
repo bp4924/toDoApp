@@ -24,7 +24,7 @@ for (i = 0; i < close.length; i++) {
 var list = document.querySelector('ul');
 
 list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'li') {
+  if (ev.target.tagName === 'LI') {
     ev.target.classList.toggle("checked");
   };
 }, false);
