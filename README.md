@@ -11,7 +11,7 @@ Click 'x' to delete that item
 
 Proposed tasks:
 
-Create new item with enter (button click not needed)
+Create new item with enter (button click not needed) - DONE!!
 
 Close all checks button
 
