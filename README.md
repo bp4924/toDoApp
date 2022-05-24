@@ -13,6 +13,6 @@ Proposed tasks:
 
 Create new item with enter (button click not needed)
 
-Close all checked button
+Close all checks button
 
-Clear all checked button
+Remove all checked button
