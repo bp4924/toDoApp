@@ -118,3 +118,23 @@ input {
   color: black;
 }
 
+#button {
+  text-align: center;
+  padding: 5px;
+  width: 25%;
+  float: right;
+  background: lightgray;
+  font-size: 16px;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background: lightcyan;
+  font-weight: bold;
+}
+
