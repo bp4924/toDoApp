@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: lightcoral;
+  background-color: palegoldenrod;
   height: 600px;
   background-position: center;
   background-size: cover;
@@ -79,7 +79,7 @@ ul li.checked::before {
 
 .header {
   background-color: teal;
-  padding: 30px 30px;
+  padding: 1px 30px 30px 30px;
   color: wheat;
   text-align: center;
 }
@@ -125,11 +125,11 @@ input {
   float: right;
   background: lightgray;
   font-size: 16px;
-  border-radius: 3px;
+  border-radius: 5px;
   border-width: 2px;
   border-color: black;
   border-style: solid;
-  margin: 5px;
+  margin: 8px;
   cursor: pointer;
 }
 
