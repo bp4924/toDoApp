@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: lightcoral;
+  background-color: palegoldenrod;
   height: 600px;
   background-position: center;
   background-size: cover;
@@ -79,7 +79,7 @@ ul li.checked::before {
 
 .header {
   background-color: teal;
-  padding: 30px 30px;
+  padding: 1px 30px 30px 30px;
   color: wheat;
   text-align: center;
 }
@@ -116,5 +116,25 @@ input {
 .addBtn:hover {
   background-color: beige;
   color: black;
+}
+
+#button {
+  text-align: center;
+  padding: 5px;
+  width: 25%;
+  float: right;
+  background: lightgray;
+  font-size: 16px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  margin: 8px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background: lightcyan;
+  font-weight: bold;
 }
 
