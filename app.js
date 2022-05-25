@@ -14,7 +14,7 @@ var close = document.getElementsByClassName('close');
 for (i = 0; i < close.length; i++) {
   close[i].onclick = function() {
     var div = this.parentElement;
-    div.style.display = 'none'
+    div.style.display = 'none' // DOES NOT DELETE ITEM!!
   };
 };
 
@@ -49,6 +49,7 @@ function newElement() {
   };
 
   document.getElementById('item').value = ''; // clear input box
+
   span = document.createElement('span');
   txt = document.createTextNode('\u00D7');
   span.className = 'close';
@@ -59,6 +60,31 @@ function newElement() {
     close[i].onclick = function() {
       var div = this.parentElement;
       div.style.display = 'none'; 
-    }
-  }
-}
+    };
+  };
+};
+
+// Delete items
+function deleteBtn() {
+  var del = document.getElementById('list');
+  
+  for (i=0;i<myNodeList.length;i++) {
+    if (myNodeList[i].classList == "checked") {
+      myNodeList[i].style.display = 'none'
+      myNodeList[i].classList.toggle("checked");
+    };
+  };
+  console.log(del);
+};
+
+// remove checks
+function removeBtn() {
+  var rem = document.getElementById('list');
+  console.log(rem);
+  for (i=0;i<myNodeList.length;i++) {
+    if (myNodeList[i].className == "checked") {
+      myNodeList[i].classList.toggle("checked");
+    };
+  };
+  console.log(rem);  
+};
