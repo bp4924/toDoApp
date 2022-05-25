@@ -8,11 +8,3 @@ Click item to select
 
 Click 'x' to delete that item
 
-
-Proposed tasks:
-
-Create new item with enter (button click not needed)
-
-Close all checked button
-
-Clear all checked button
