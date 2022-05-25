@@ -4,7 +4,7 @@ Functionality
 
 Add new item in text box. 
 
-Click Add (or prress Enter) to add the item to the list
+Click Add (or press Enter) to add the item to the list
 
 Click the item to select
 
