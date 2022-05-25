@@ -11,7 +11,9 @@ Click the item to select
 Click 'x' to delete that item
 
 click Delete Checked Items to permanently delete the checked items
+
 click Remove Checks from Items to uncheck all items
+
 
 Things I learned:
 
