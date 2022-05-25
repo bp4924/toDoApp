@@ -2,11 +2,12 @@
 
 Functionality
 
-Add new item in text box. Click 'Add' button to add to the list
-
-Click item to select
-
+Add new item in text box. Click Add (or prress Enter) to add the item to the list
+Click the item to select
 Click 'x' to delete that item
+
+click Delete Checked Items to permanently delete the checked items
+click Remove Checks from Items to uncheck all items
 
 Things I learned:
 
@@ -21,6 +22,7 @@ general flow of elements, methods, properties, etc.
 classList, className, toggle and how they work with the DOM
 
 Playing now with the git interface within VS Code
- pushed readme with no conflicts
+
+pushed readme with no conflicts
 
 
