@@ -2,8 +2,12 @@
 
 Functionality
 
-Add new item in text box. Click Add (or prress Enter) to add the item to the list
+Add new item in text box. 
+
+Click Add (or prress Enter) to add the item to the list
+
 Click the item to select
+
 Click 'x' to delete that item
 
 click Delete Checked Items to permanently delete the checked items
