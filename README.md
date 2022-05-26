@@ -20,7 +20,7 @@ general flow of elements, methods, properties, etc.
 
 classList, className, toggle and how they work with the DOM
 
-Playing now with the git interface within VS Code
+Playing now with the git interface within VS Code 
 
 
 
