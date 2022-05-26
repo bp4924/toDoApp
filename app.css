@@ -122,7 +122,7 @@ input {
   text-align: center;
   padding: 5px;
   width: 25%;
-  float: right;
+  float: left;
   background: lightgray;
   font-size: 16px;
   border-radius: 5px;
@@ -136,5 +136,9 @@ input {
 #button:hover {
   background: lightcyan;
   font-weight: bold;
+}
+
+#button.deleteBtn {
+  float: right;
 }
 
