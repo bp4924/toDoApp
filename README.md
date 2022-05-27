@@ -31,4 +31,8 @@ Playing now with the git interface within VS Code
 
 pushed readme with no conflicts
 
+diving into the staging process
+
+playing with bash
+
 

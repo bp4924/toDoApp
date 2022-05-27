@@ -70,7 +70,7 @@ function newElement() {
 function deleteBtn() {
   var del = document.getElementById('list');  
   for (i=0;i<myNodeList.length;i++) {
-    if (myNodeList[i].classList == "checked") {
+    if (myNodeList[i].classList === "checked") {
       myNodeList[i].remove();
       i--;
     };
@@ -82,7 +82,7 @@ function deleteBtn() {
 function removeBtn() {
   var rem = document.getElementById('list');
   for (i=0;i<myNodeList.length;i++) {
-    if (myNodeList[i].className == "checked") {
+    if (myNodeList[i].className === "checked") {
       myNodeList[i].classList.toggle("checked");
     };
   };
