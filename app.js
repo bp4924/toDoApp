@@ -72,23 +72,19 @@ function newElement() {
 
 // delete checked tasks
 function deleteBtn() {
-  //  var del = document.getElementById("list");
   for (i = 0; i < myNodeList.length; i++) {
     if (myNodeList[i].className === "checked") {
       myNodeList[i].remove();
       i--;
     }
   }
-  //console.log(del);
 }
 
 // remove checks
 function removeBtn() {
-  //  var rem = document.getElementById("list");
   for (i = 0; i < myNodeList.length; i++) {
     if (myNodeList[i].className === "checked") {
       myNodeList[i].classList.toggle("checked");
     }
   }
-  //  console.log(rem);
 }
