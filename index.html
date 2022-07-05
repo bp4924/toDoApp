@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="app.css">
-</head>
-<body>
-  <div class="container">
-    <div id="listbox" class="header">
-      <h2>My To Do List</h2>
-      <input type="text" id="item" placeholder="New task ...">
-      <span onclick="newElement()" class="addBtn">Add</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="listbox" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="item" placeholder="New task ..." />
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+
+      <ul id="list">
+        <li>Learn new tasks</li>
+        <li>Play Games</li>
+        <li>Walk the dog</li>
+      </ul>
+      <div>
+        <button id="button" class="deleteBtn" onclick="deleteBtn()">
+          Delete Checked Items
+        </button>
+        <button id="button" class="removeBtn" onclick="removeBtn()">
+          Remove Checks from Items
+        </button>
+      </div>
     </div>
 
-    <ul id="list">
-      <li>Learn new tasks</li>
-      <li>Play Games</li>
-      <li>Walk the dog</li>
-    </ul>
-    <div>
-      <button id="button" class="deleteBtn" onclick="deleteBtn()">Delete Checked Items</button>
-      <button id="button" class="removeBtn" onclick="removeBtn()">Remove Checks from Items</button>
-    </div>
-  </div>
-  
-  <script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
